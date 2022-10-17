@@ -13,3 +13,4 @@ A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.pdb
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.genruntimeconfig.cache
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.FormMain.resources
+A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.Properties.Resources.resources
