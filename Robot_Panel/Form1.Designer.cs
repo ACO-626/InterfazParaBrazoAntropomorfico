@@ -34,16 +34,16 @@ namespace Robot_Panel
             this.comboBTipo = new System.Windows.Forms.ComboBox();
             this.labelPuntoInicio = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBXmm = new System.Windows.Forms.TextBox();
-            this.textBYmm = new System.Windows.Forms.TextBox();
-            this.textBXPmm = new System.Windows.Forms.TextBox();
-            this.textBYPmm = new System.Windows.Forms.TextBox();
+            this.textBoxX1 = new System.Windows.Forms.TextBox();
+            this.textBoxY1 = new System.Windows.Forms.TextBox();
+            this.textBoxX2 = new System.Windows.Forms.TextBox();
+            this.textBoxY2 = new System.Windows.Forms.TextBox();
             this.labelmm1 = new System.Windows.Forms.Label();
             this.labelmm2 = new System.Windows.Forms.Label();
             this.labelmm4 = new System.Windows.Forms.Label();
             this.labelmm3 = new System.Windows.Forms.Label();
             this.labelSimpleVistaPrevia = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelCanvas = new System.Windows.Forms.Panel();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +58,8 @@ namespace Robot_Panel
             this.labelSimpleO = new System.Windows.Forms.Label();
             this.labelSimpleX = new System.Windows.Forms.Label();
             this.labelSimpleY = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturePReference01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePReference2)).BeginInit();
@@ -65,6 +67,8 @@ namespace Robot_Panel
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBRowHX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // labelTipo
@@ -72,7 +76,7 @@ namespace Robot_Panel
             this.labelTipo.AutoSize = true;
             this.labelTipo.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTipo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelTipo.Location = new System.Drawing.Point(46, 102);
+            this.labelTipo.Location = new System.Drawing.Point(54, 140);
             this.labelTipo.Name = "labelTipo";
             this.labelTipo.Size = new System.Drawing.Size(125, 23);
             this.labelTipo.TabIndex = 0;
@@ -89,7 +93,7 @@ namespace Robot_Panel
             this.comboBTipo.ForeColor = System.Drawing.SystemColors.WindowText;
             this.comboBTipo.FormattingEnabled = true;
             this.comboBTipo.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.comboBTipo.Location = new System.Drawing.Point(56, 129);
+            this.comboBTipo.Location = new System.Drawing.Point(64, 167);
             this.comboBTipo.Name = "comboBTipo";
             this.comboBTipo.Size = new System.Drawing.Size(267, 26);
             this.comboBTipo.TabIndex = 1;
@@ -99,7 +103,7 @@ namespace Robot_Panel
             this.labelPuntoInicio.AutoSize = true;
             this.labelPuntoInicio.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelPuntoInicio.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelPuntoInicio.Location = new System.Drawing.Point(46, 191);
+            this.labelPuntoInicio.Location = new System.Drawing.Point(54, 229);
             this.labelPuntoInicio.Name = "labelPuntoInicio";
             this.labelPuntoInicio.Size = new System.Drawing.Size(252, 23);
             this.labelPuntoInicio.TabIndex = 2;
@@ -110,50 +114,50 @@ namespace Robot_Panel
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(56, 301);
+            this.label1.Location = new System.Drawing.Point(64, 339);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(233, 23);
             this.label1.TabIndex = 3;
             this.label1.Text = "Punto de fin del trazp (P\')";
             // 
-            // textBXmm
+            // textBoxX1
             // 
-            this.textBXmm.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBXmm.Location = new System.Drawing.Point(56, 224);
-            this.textBXmm.Name = "textBXmm";
-            this.textBXmm.Size = new System.Drawing.Size(90, 26);
-            this.textBXmm.TabIndex = 4;
+            this.textBoxX1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxX1.Location = new System.Drawing.Point(64, 262);
+            this.textBoxX1.Name = "textBoxX1";
+            this.textBoxX1.Size = new System.Drawing.Size(90, 26);
+            this.textBoxX1.TabIndex = 4;
             // 
-            // textBYmm
+            // textBoxY1
             // 
-            this.textBYmm.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBYmm.Location = new System.Drawing.Point(233, 224);
-            this.textBYmm.Name = "textBYmm";
-            this.textBYmm.Size = new System.Drawing.Size(90, 26);
-            this.textBYmm.TabIndex = 5;
+            this.textBoxY1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxY1.Location = new System.Drawing.Point(241, 262);
+            this.textBoxY1.Name = "textBoxY1";
+            this.textBoxY1.Size = new System.Drawing.Size(90, 26);
+            this.textBoxY1.TabIndex = 5;
             // 
-            // textBXPmm
+            // textBoxX2
             // 
-            this.textBXPmm.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBXPmm.Location = new System.Drawing.Point(56, 332);
-            this.textBXPmm.Name = "textBXPmm";
-            this.textBXPmm.Size = new System.Drawing.Size(90, 26);
-            this.textBXPmm.TabIndex = 6;
+            this.textBoxX2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxX2.Location = new System.Drawing.Point(64, 370);
+            this.textBoxX2.Name = "textBoxX2";
+            this.textBoxX2.Size = new System.Drawing.Size(90, 26);
+            this.textBoxX2.TabIndex = 6;
             // 
-            // textBYPmm
+            // textBoxY2
             // 
-            this.textBYPmm.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBYPmm.Location = new System.Drawing.Point(233, 332);
-            this.textBYPmm.Name = "textBYPmm";
-            this.textBYPmm.Size = new System.Drawing.Size(90, 26);
-            this.textBYPmm.TabIndex = 7;
+            this.textBoxY2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxY2.Location = new System.Drawing.Point(241, 370);
+            this.textBoxY2.Name = "textBoxY2";
+            this.textBoxY2.Size = new System.Drawing.Size(90, 26);
+            this.textBoxY2.TabIndex = 7;
             // 
             // labelmm1
             // 
             this.labelmm1.AutoSize = true;
             this.labelmm1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelmm1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelmm1.Location = new System.Drawing.Point(152, 232);
+            this.labelmm1.Location = new System.Drawing.Point(160, 270);
             this.labelmm1.Name = "labelmm1";
             this.labelmm1.Size = new System.Drawing.Size(57, 18);
             this.labelmm1.TabIndex = 8;
@@ -164,7 +168,7 @@ namespace Robot_Panel
             this.labelmm2.AutoSize = true;
             this.labelmm2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelmm2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelmm2.Location = new System.Drawing.Point(329, 232);
+            this.labelmm2.Location = new System.Drawing.Point(337, 270);
             this.labelmm2.Name = "labelmm2";
             this.labelmm2.Size = new System.Drawing.Size(55, 18);
             this.labelmm2.TabIndex = 9;
@@ -175,7 +179,7 @@ namespace Robot_Panel
             this.labelmm4.AutoSize = true;
             this.labelmm4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelmm4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelmm4.Location = new System.Drawing.Point(329, 340);
+            this.labelmm4.Location = new System.Drawing.Point(337, 378);
             this.labelmm4.Name = "labelmm4";
             this.labelmm4.Size = new System.Drawing.Size(55, 18);
             this.labelmm4.TabIndex = 10;
@@ -186,7 +190,7 @@ namespace Robot_Panel
             this.labelmm3.AutoSize = true;
             this.labelmm3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelmm3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelmm3.Location = new System.Drawing.Point(152, 340);
+            this.labelmm3.Location = new System.Drawing.Point(160, 378);
             this.labelmm3.Name = "labelmm3";
             this.labelmm3.Size = new System.Drawing.Size(57, 18);
             this.labelmm3.TabIndex = 11;
@@ -203,23 +207,24 @@ namespace Robot_Panel
             this.labelSimpleVistaPrevia.TabIndex = 12;
             this.labelSimpleVistaPrevia.Text = "Vista previa";
             // 
-            // panel1
+            // panelCanvas
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(643, 128);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(330, 420);
-            this.panel1.TabIndex = 13;
+            this.panelCanvas.BackColor = System.Drawing.Color.White;
+            this.panelCanvas.Location = new System.Drawing.Point(643, 128);
+            this.panelCanvas.Name = "panelCanvas";
+            this.panelCanvas.Size = new System.Drawing.Size(330, 420);
+            this.panelCanvas.TabIndex = 13;
             // 
             // btnLimpiar
             // 
             this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLimpiar.Location = new System.Drawing.Point(778, 565);
+            this.btnLimpiar.Location = new System.Drawing.Point(643, 566);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(89, 30);
             this.btnLimpiar.TabIndex = 14;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // menuStrip1
             // 
@@ -254,7 +259,7 @@ namespace Robot_Panel
             // picturePReference01
             // 
             this.picturePReference01.Image = ((System.Drawing.Image)(resources.GetObject("picturePReference01.Image")));
-            this.picturePReference01.Location = new System.Drawing.Point(412, 172);
+            this.picturePReference01.Location = new System.Drawing.Point(420, 210);
             this.picturePReference01.Name = "picturePReference01";
             this.picturePReference01.Size = new System.Drawing.Size(142, 77);
             this.picturePReference01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -264,7 +269,7 @@ namespace Robot_Panel
             // picturePReference2
             // 
             this.picturePReference2.Image = ((System.Drawing.Image)(resources.GetObject("picturePReference2.Image")));
-            this.picturePReference2.Location = new System.Drawing.Point(412, 280);
+            this.picturePReference2.Location = new System.Drawing.Point(420, 318);
             this.picturePReference2.Name = "picturePReference2";
             this.picturePReference2.Size = new System.Drawing.Size(142, 77);
             this.picturePReference2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -281,6 +286,7 @@ namespace Robot_Panel
             this.btnVisualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnVisualizar.TabIndex = 18;
             this.btnVisualizar.TabStop = false;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
             // pictureBox1
             // 
@@ -346,11 +352,33 @@ namespace Robot_Panel
             this.labelSimpleY.TabIndex = 24;
             this.labelSimpleY.Text = "Y";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(875, 554);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(88, 17);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(979, 460);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(17, 88);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 26;
+            this.pictureBox4.TabStop = false;
+            // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1006, 633);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.labelSimpleY);
             this.Controls.Add(this.labelSimpleX);
             this.Controls.Add(this.labelSimpleO);
@@ -361,16 +389,16 @@ namespace Robot_Panel
             this.Controls.Add(this.picturePReference2);
             this.Controls.Add(this.picturePReference01);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelCanvas);
             this.Controls.Add(this.labelSimpleVistaPrevia);
             this.Controls.Add(this.labelmm3);
             this.Controls.Add(this.labelmm4);
             this.Controls.Add(this.labelmm2);
             this.Controls.Add(this.labelmm1);
-            this.Controls.Add(this.textBYPmm);
-            this.Controls.Add(this.textBXPmm);
-            this.Controls.Add(this.textBYmm);
-            this.Controls.Add(this.textBXmm);
+            this.Controls.Add(this.textBoxY2);
+            this.Controls.Add(this.textBoxX2);
+            this.Controls.Add(this.textBoxY1);
+            this.Controls.Add(this.textBoxX1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelPuntoInicio);
             this.Controls.Add(this.comboBTipo);
@@ -391,6 +419,8 @@ namespace Robot_Panel
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBRowHX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,16 +432,16 @@ namespace Robot_Panel
         private System.Windows.Forms.ComboBox comboBTipo;
         private System.Windows.Forms.Label labelPuntoInicio;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBXmm;
-        private System.Windows.Forms.TextBox textBYmm;
-        private System.Windows.Forms.TextBox textBXPmm;
-        private System.Windows.Forms.TextBox textBYPmm;
+        private System.Windows.Forms.TextBox textBoxX1;
+        private System.Windows.Forms.TextBox textBoxY1;
+        private System.Windows.Forms.TextBox textBoxX2;
+        private System.Windows.Forms.TextBox textBoxY2;
         private System.Windows.Forms.Label labelmm1;
         private System.Windows.Forms.Label labelmm2;
         private System.Windows.Forms.Label labelmm4;
         private System.Windows.Forms.Label labelmm3;
         private System.Windows.Forms.Label labelSimpleVistaPrevia;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelCanvas;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
@@ -426,6 +456,8 @@ namespace Robot_Panel
         private System.Windows.Forms.Label labelSimpleO;
         private System.Windows.Forms.Label labelSimpleX;
         private System.Windows.Forms.Label labelSimpleY;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 
