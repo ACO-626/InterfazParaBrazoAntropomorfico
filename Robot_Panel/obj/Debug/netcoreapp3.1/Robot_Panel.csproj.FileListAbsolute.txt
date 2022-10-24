@@ -14,3 +14,20 @@ A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.genruntimeconfig.cache
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.FormMain.resources
 A:\11VO SEMESTRE\Robótica\Interfaz\Interfaz_BrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.Properties.Resources.resources
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.exe
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.deps.json
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.runtimeconfig.json
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.runtimeconfig.dev.json
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.dll
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\bin\Debug\netcoreapp3.1\Robot_Panel.pdb
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.csproj.AssemblyReference.cache
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.FormMain.resources
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.Properties.Resources.resources
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.csproj.GenerateResource.cache
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.AssemblyInfoInputs.cache
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.AssemblyInfo.cs
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.csproj.CoreCompileInputs.cache
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.dll
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.pdb
+C:\Users\eliut\OneDrive\Documents\Universidad\2023-1\Robótica\InterfazParaBrazoAntropomorfico\Robot_Panel\obj\Debug\netcoreapp3.1\Robot_Panel.genruntimeconfig.cache
