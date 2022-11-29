@@ -60,6 +60,7 @@ namespace Robot_Panel
             this.labelSimpleY = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lbConsoleMensaje = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturePReference01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePReference2)).BeginInit();
@@ -97,6 +98,7 @@ namespace Robot_Panel
             this.comboBTipo.Name = "comboBTipo";
             this.comboBTipo.Size = new System.Drawing.Size(267, 26);
             this.comboBTipo.TabIndex = 1;
+            this.comboBTipo.SelectedIndexChanged += new System.EventHandler(this.comboBTipo_SelectedIndexChanged);
             // 
             // labelPuntoInicio
             // 
@@ -372,11 +374,24 @@ namespace Robot_Panel
             this.pictureBox4.TabIndex = 26;
             this.pictureBox4.TabStop = false;
             // 
+            // lbConsoleMensaje
+            // 
+            this.lbConsoleMensaje.AutoSize = true;
+            this.lbConsoleMensaje.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbConsoleMensaje.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbConsoleMensaje.Location = new System.Drawing.Point(643, 66);
+            this.lbConsoleMensaje.Name = "lbConsoleMensaje";
+            this.lbConsoleMensaje.Size = new System.Drawing.Size(54, 15);
+            this.lbConsoleMensaje.TabIndex = 28;
+            this.lbConsoleMensaje.Text = "Mensaje";
+            this.lbConsoleMensaje.Visible = false;
+            // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1006, 633);
+            this.Controls.Add(this.lbConsoleMensaje);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.labelSimpleY);
@@ -458,6 +473,7 @@ namespace Robot_Panel
         private System.Windows.Forms.Label labelSimpleY;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lbConsoleMensaje;
     }
 }
 
